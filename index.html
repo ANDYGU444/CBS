@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CBS · Propuesta de sitio web (RF Creative Studio)</title>
+<meta name="description" content="Constructora Bien Social CBS: su aliado experto en la gestión de bonos de vivienda. Bono Ordinario, Patio, Crédito, RAMT, discapacidad y adulto mayor. ¡Casa para todos!">
+<meta name="theme-color" content="#FF6410">
+<link rel="icon" href="img/logo_dark_mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Outfit:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDFDFD"/><stop offset=".45" stop-color="#C9CED4"/><stop offset=".7" stop-color="#EEF1F4"/><stop offset="1" stop-color="#9AA1A9"/></linearGradient>
+  </defs>
+  <symbol id="key-art" viewBox="0 0 200 90">
+    <circle cx="44" cy="45" r="36" fill="url(#silver)" stroke="#8B9198" stroke-width="2"/>
+    <circle cx="44" cy="45" r="13" fill="#fff" stroke="#8B9198" stroke-width="2"/>
+    <path d="M78 37h104l10 8-10 8h-10v14h-12V53h-9v10h-12V53H78z" fill="url(#silver)" stroke="#8B9198" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M86 43h88" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  </symbol>
+  <symbol id="cloud" viewBox="0 0 200 90"><path d="M42 82a30 30 0 0 1-4-60 38 38 0 0 1 70-10 30 30 0 0 1 46 16 27 27 0 0 1 4 54z" fill="currentColor"/></symbol>
+  <symbol id="mh" viewBox="0 0 200 160">
+    <path d="M30 70h140v80H30z" fill="currentColor"/>
+    <path d="M14 76 100 18l86 58-8 6-78-52-78 52z" fill="#6B3F2A"/>
+    <path d="M22 72 100 22l78 50" fill="none" stroke="#fff" stroke-width="3" opacity=".6"/>
+    <rect x="46" y="92" width="38" height="30" rx="2" fill="#2A2A2A"/><rect x="48" y="94" width="34" height="26" fill="#5C6B78"/>
+    <rect x="114" y="98" width="30" height="52" rx="2" fill="#8B5A35"/><circle cx="138" cy="126" r="2" fill="#E5C07B"/>
+    <path d="M30 148h140v4H30z" fill="#000" opacity=".15"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.4-4.5A8.4 8.4 0 1 1 20.5 11.6z"/><path d="M9 8.6c.3-.6 1-.6 1.3 0l.6 1.3c.1.3 0 .6-.2.8l-.5.5a5.4 5.4 0 0 0 2.6 2.6l.5-.5c.2-.2.5-.3.8-.2l1.3.6c.6.3.6 1 0 1.3-.9.5-2 .6-3 .2a8 8 0 0 1-3.6-3.6c-.4-1-.3-2.1.2-3z" fill="currentColor" stroke="none"/></g></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.2l1.4 4.1-2 1.4a12 12 0 0 0 6.8 6.8l1.4-2 4.1 1.4v2.2a2.1 2.1 0 0 1-2.3 2.1A17 17 0 0 1 4.5 5.8 2.1 2.1 0 0 1 6.6 3.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/></g></symbol>
+  <symbol id="i-fam" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12 8 7.5l5.5 4.5"/><path d="M4 11v8.5h8V11"/><path d="M12.5 11 17 7.5l4.5 3.5"/><path d="M14 19.5h6V10.5"/></g></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="12" r="4"/><path d="M11.5 12H21l-1.5 2M17 12v3M14.5 12v2.5"/></g></symbol>
+  <symbol id="i-tools" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5a4 4 0 0 0 4.8 4.8L11 18.6a2 2 0 0 1-2.8-2.8z"/><path d="M4 20l3-3"/></g></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/></g></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4.5" r="1.8"/><path d="M11 7.5v6h5l2.5 5M11 10.5h4"/><path d="M8.2 11.6a5 5 0 1 0 7 6.4"/></g></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z" fill="currentColor"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M2.5 12s3.5-6.5 9.5-6.5 9.5 6.5 9.5 6.5-3.5 6.5-9.5 6.5S2.5 12 2.5 12z"/><circle cx="12" cy="12" r="2.8"/></g></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="m8.5 8.5 7 7m0-7-7 7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="m7.5 12.3 3 3 6-6.2" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-turn" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5h3v14H8zM13 5h3v14h-3z" fill="#fff"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></symbol>
+  <symbol id="i-qr" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1"/></g><path d="M14 14h3v3h-3zM17 17h3.5v3.5H17z" fill="currentColor"/></symbol>
+  <symbol id="i-form" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M9 8h6M9 12h6M9 16h3"/></g></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></g></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></g></symbol>
+  <symbol id="i-hat" viewBox="0 0 24 24"><g fill="none" stroke="#141414" stroke-width="1.8" stroke-linejoin="round"><path d="M4 16a8 8 0 0 1 16 0z" fill="#FFD24D"/><path d="M2.5 16h19v2.5h-19z" fill="#FFD24D"/><path d="M10 8.3V6h4v2.3"/></g></symbol>
+</svg>
+
+<div class="nojs-bar" role="alert">Esta vista no ejecuta las funciones de la página. Ábrala en Safari o Chrome para usar el buscador de bono, la pre-solicitud y los códigos QR.</div>
+<div class="ribbon" role="note"><b>Propuesta de RF Creative Studio</b> para Constructora Bien Social CBS · Vista previa, no es el sitio oficial.</div>
+
+<!-- ENCABEZADO FLOTANTE -->
+<header class="top" id="top">
+  <div class="wrap"><div class="top-in">
+    <a class="brand" href="#inicio" aria-label="CBS Constructora Bien Social, inicio"><img src="img/logo_dark_mark.png" alt="CBS" width="78" height="30"><small>CONSTRUCTORA BIEN SOCIAL</small></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#bonos">Bonos</a><a href="#pinte">Su casa</a><a href="#proceso">Proceso</a><a href="#experiencias">Experiencias</a><a href="#qr">QR</a><a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-sm cta" href="#solicitud">Pre-solicitud</a>
+    <button class="menu-b" type="button" aria-expanded="false" aria-controls="msheet">Menú <i></i></button>
+  </div></div>
+</header>
+<div class="sheet-bg" data-close-menu></div>
+<div class="msheet" id="msheet" role="dialog" aria-label="Menú">
+  <div class="grab"></div>
+  <button class="msheet-x" type="button" data-close-menu aria-label="Cerrar menú">×</button>
+  <nav>
+    <a href="#buscador">¿Qué bono es para mí?<small>3 preguntas</small></a>
+    <a href="#bonos">Bonos<small>Los 7 que tramitamos</small></a>
+    <a href="#pinte">Pinte su casa<small>Elija su color</small></a>
+    <a href="#proceso">Proceso<small>Su casa en 5 pasos</small></a>
+    <a href="#experiencias">Experiencias<small>Historias de familias</small></a>
+    <a href="#qr">Códigos QR<small>Para volantes y ferias</small></a>
+    <a href="#mitos">Mitos<small>Lo que no es cierto</small></a>
+    <a href="#contacto">Contacto<small>WhatsApp y oficina</small></a>
+  </nav>
+  <a class="btn" href="#solicitud">Hacer mi pre-solicitud</a>
+</div>
+
+<main>
+<!-- =========================================================
+     PORTADA
+     ========================================================= -->
+<section class="hero" id="inicio">
+  <div class="sun"></div>
+  <div class="clouds" aria-hidden="true">
+    <span class="cloud cl1"><svg><use href="#cloud"/></svg></span>
+    <span class="cloud cl2"><svg><use href="#cloud"/></svg></span>
+    <span class="cloud cl3"><svg><use href="#cloud"/></svg></span>
+  </div>
+  <div class="wrap hero-in">
+    <div class="rv in-hero">
+      <span class="kick">¡Casa para todos!</span>
+      <h1 class="d"><span class="ln" style="--i:0"><span>Su casa propia</span></span><span class="ln" style="--i:1"><span>está <span class="o">más cerca</span></span></span></h1>
+      <p class="lead pop" style="--d:.5s">Somos su aliado experto en la gestión de bonos de vivienda. Le acompañamos en todo el proceso, desde la evaluación gratuita hasta la entrega de llaves.</p>
+      <div class="ctas pop" style="--d:.65s">
+        <a class="btn" href="#buscador">¿Qué bono es para mí? <svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-line" data-wa="Hola CBS, quiero información sobre el bono de vivienda." href="https://wa.me/?text=Hola%20CBS%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20bono%20de%20vivienda." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> Escríbanos</a>
+      </div>
+      <div class="facts pop" style="--d:.8s">
+        <span><svg><use href="#i-ok"/></svg>Evaluación gratuita</span>
+        <span><svg><use href="#i-key"/></svg>7 tipos de bono</span>
+        <span><svg><use href="#i-pin"/></svg>9 cantones</span>
+      </div>
+    </div>
+    <div class="house" data-house>
+      <svg class="house-outline" viewBox="0 0 100 116" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M50 1 99 38v77H1V38z" vector-effect="non-scaling-stroke"/></svg>
+      <div class="house-frame"><img src="img/hero.jpg" alt="Casa de block y techo moderno construida por CBS" width="506" height="759"></div>
+      <div class="sticker" aria-hidden="true">Con CBS<br>se puede</div>
+      <svg class="key" aria-hidden="true"><use href="#key-art"/></svg>
+      <svg class="key key2" aria-hidden="true"><use href="#key-art"/></svg>
+      <span class="views-chip"><svg><use href="#i-eye"/></svg>20 mil vistas en Facebook</span>
+    </div>
+  </div>
+</section>
+
+<div class="zones" aria-label="Cantones donde tramitamos">
+  <div class="zones-t">
+    <span class="lbl">Tramitamos en</span><span>San Carlos</span><span>Sarapiquí</span><span>Río Cuarto</span><span>Pococí</span><span>Guácimo</span><span>Siquirres</span><span>Matina</span><span>Limón</span><span>Turrialba</span>
+    <span class="lbl" aria-hidden="true">Tramitamos en</span><span aria-hidden="true">San Carlos</span><span aria-hidden="true">Sarapiquí</span><span aria-hidden="true">Río Cuarto</span><span aria-hidden="true">Pococí</span><span aria-hidden="true">Guácimo</span><span aria-hidden="true">Siquirres</span><span aria-hidden="true">Matina</span><span aria-hidden="true">Limón</span><span aria-hidden="true">Turrialba</span>
+  </div>
+</div>
+
+<!-- =========================================================
+     ¿QUÉ BONO ES PARA MÍ?
+     ========================================================= -->
+<section class="sec finder-sec" id="buscador">
+  <div class="wrap finder-grid">
+    <div class="rv">
+      <span class="tag"><svg><use href="#i-search"/></svg>Buscador de bono</span>
+      <h2 class="d h2"><span class="ln"><span>¿Qué bono es</span></span><span class="ln" style="--i:1"><span>para <span class="s">usted?</span></span></span></h2>
+      <p class="lead">Tenemos el bono que usted necesita. Responda tres preguntas y le decimos por cuál conviene empezar.</p>
+      <p class="lead" style="font-size:15.5px;color:var(--muted)">Es una orientación. Un asesor de CBS lo confirma en la evaluación gratuita.</p>
+    </div>
+    <div class="quiz pop" data-quiz>
+      <div class="quiz-top"><small data-qstep>Pregunta 1 de 3</small><div class="dots"><i class="on"></i><i></i><i></i></div></div>
+      <div class="qz on" data-q="1">
+        <h3>¿Ya tiene casa propia?</h3>
+        <div class="qopts">
+          <button class="qopt" type="button" data-a="casa"><span class="ic"><svg><use href="#i-tools"/></svg></span><span><b>Sí, pero necesito mejorarla</b><small>Repararla, terminarla o ampliarla</small></span></button>
+          <button class="qopt" type="button" data-a="nueva"><span class="ic"><svg><use href="#i-home"/></svg></span><span><b>No, quiero una casa nueva</b><small>Construir o comprar</small></span></button>
+        </div>
+      </div>
+      <div class="qz" data-q="2">
+        <h3>¿Cuenta con terreno?</h3>
+        <div class="qopts">
+          <button class="qopt" type="button" data-a="lote"><span class="ic"><svg><use href="#i-home"/></svg></span><span><b>Sí, tengo lote propio</b><small>A mi nombre o de mi pareja</small></span></button>
+          <button class="qopt" type="button" data-a="patio"><span class="ic"><svg><use href="#i-fam"/></svg></span><span><b>Comparto terreno con mi familia</b><small>Por ejemplo, en el lote de mis papás</small></span></button>
+          <button class="qopt" type="button" data-a="sinlote"><span class="ic"><svg><use href="#i-search"/></svg></span><span><b>No tengo lote</b><small>Necesito lote y casa</small></span></button>
+        </div>
+        <button class="qback" type="button" data-qback>← Volver</button>
+      </div>
+      <div class="qz" data-q="3">
+        <h3>¿En su hogar vive una persona adulta mayor o con discapacidad?</h3>
+        <div class="qopts">
+          <button class="qopt" type="button" data-a="especial"><span class="ic"><svg><use href="#i-access"/></svg></span><span><b>Sí</b><small>Adulto mayor o persona con discapacidad</small></span></button>
+          <button class="qopt" type="button" data-a="no"><span class="ic"><svg><use href="#i-fam"/></svg></span><span><b>No</b><small>Ninguna de las dos</small></span></button>
+        </div>
+        <button class="qback" type="button" data-qback>← Volver</button>
+      </div>
+      <div class="result" data-result>
+        <div class="burst"><svg><use href="#i-key"/></svg></div>
+        <small>Le recomendamos empezar por</small>
+        <h3 data-rname>Bono</h3>
+        <p data-rtext></p>
+        <p class="extra" data-rextra hidden></p>
+        <div class="acts"><a class="btn" href="#solicitud" data-rgo>Iniciar pre-solicitud <svg><use href="#i-arrow"/></svg></a><button class="btn btn-line" type="button" data-qreset>Empezar de nuevo</button></div>
+        <p class="fine">Orientación general. La aprobación depende de los requisitos del BANHVI y de la revisión de su caso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     BONOS (desplazamiento horizontal)
+     ========================================================= -->
+<section class="hs" id="bonos" data-hs>
+  <div class="hs-pin">
+    <div class="wrap hs-head">
+      <div class="rv"><span class="tag" style="background:rgba(255,100,16,.18);color:#FFB085"><svg><use href="#i-key"/></svg>Bonos que le ofrecemos</span>
+        <h2 class="d h2"><span class="ln"><span>Un bono para</span></span><span class="ln" style="--i:1"><span>su <span class="s">necesidad</span></span></span></h2></div>
+      <span class="hs-hint"><svg><use href="#i-arrow"/></svg>Deslice para ver los 7</span>
+    </div>
+    <div class="track" data-track>
+      <article class="bono" style="--bg:var(--peach)"><span class="num">01</span><span class="pill">Lote propio</span><h3>Bono Ordinario</h3><p>Si tiene lote, ya inició el camino. Construya su casa con un trámite accesible, fácil y con la mejor guía.</p><svg class="mini-house" style="color:#FFE3C9"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="lote">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono" style="--bg:var(--yellow)"><span class="num">02</span><span class="pill">Terreno familiar</span><h3>Bono Patio</h3><p>Le permite construir en el lote familiar: su casa, cerca de los suyos y en su propio espacio.</p><svg class="mini-house" style="color:#FFF2C2"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="patio">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono dark" style="--bg:#2B2B2B"><span class="num">03</span><span class="pill">Lote + casa</span><h3>Bono Crédito</h3><p>¿No tiene lote? Hay solución. Le ayudamos a comprarlo y paga menos que un alquiler.</p><svg class="mini-house" style="color:var(--o)"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="sinlote">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono" style="--bg:var(--blue)"><span class="num">04</span><span class="pill">Ya tengo casa</span><h3>Bono RAMT</h3><p>Repare, termine o amplíe su casa. Renueve y mejore el hogar que ya tiene.</p><svg class="mini-house" style="color:#D6ECFF"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="casa">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono" style="--bg:var(--lilac)"><span class="num">05</span><span class="pill">Inclusión</span><h3>Bono por discapacidad</h3><p>Un hogar accesible y digno, con espacios adaptados para personas con discapacidad.</p><svg class="mini-house" style="color:#EFE6FA"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="lote" data-esp="disc">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono" style="--bg:var(--green)"><span class="num">06</span><span class="pill">Adultos mayores</span><h3>Bono adulto mayor</h3><p>Un hogar seguro para su bienestar: comodidad y tranquilidad para los más queridos.</p><svg class="mini-house" style="color:#E4F5DA"><use href="#mh"/></svg><a class="go" href="#solicitud" data-sit="lote" data-esp="adulto">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+      <article class="bono" style="--bg:var(--salmon)"><span class="num">07</span><span class="pill">Casos especiales</span><h3>Bono Artículo 59</h3><p>Para familias en condiciones especiales. Le explicamos si aplica a su caso en la evaluación gratuita.</p><svg class="mini-house" style="color:#FFE0D9"><use href="#mh"/></svg><a class="go" href="#solicitud">Iniciar <svg><use href="#i-arrow"/></svg></a></article>
+    </div>
+    <div class="hs-bar"><span data-hsbar></span></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PINTE SU CASA
+     ========================================================= -->
+<section class="sec" id="pinte">
+  <div class="wrap">
+    <div class="paint-grid">
+      <div class="paint-stage clip" data-stage data-design="clasica">
+        <svg viewBox="0 0 800 640" aria-label="Ilustración de la casa con los colores elegidos" role="img">
+          <defs>
+            <pattern id="blockp" width="40" height="20" patternUnits="userSpaceOnUse"><rect width="40" height="20" fill="#A9ABAE"/><path d="M0 19.5h40M20 0v10M0 10h40M10 10v10M30 10v10" stroke="#8E9094" stroke-width="1.4"/></pattern>
+          </defs>
+          <ellipse cx="400" cy="470" rx="330" ry="22" fill="#000" opacity=".08"/>
+          <!-- clásica -->
+          <g class="d-cla">
+            <rect class="wall" x="170" y="262" width="460" height="196" fill="#F7B47E"/>
+            <path class="roof" d="M132 272 400 128l268 144-14 14L400 150 146 286z" fill="#6B3F2A"/>
+            <path class="fascia" d="M146 286 400 150l254 136v10L400 162 146 296z" fill="#4E2D1E"/>
+            <path class="wall" d="M174 292 400 168l226 124z" fill="#F7B47E"/>
+            <path d="M174 292 400 168l226 124" fill="none" stroke="#000" stroke-opacity=".08" stroke-width="3"/>
+            <rect x="212" y="318" width="120" height="86" rx="3" fill="#2A2A2A"/><rect x="218" y="324" width="52" height="74" fill="#6E8597"/><rect x="274" y="324" width="52" height="74" fill="#7D93A4"/>
+            <rect x="420" y="330" width="70" height="128" rx="3" fill="#8B5A35"/><path d="M430 342h50v46h-50zM430 396h50v52h-50z" fill="none" stroke="#6E4325" stroke-width="3"/><circle cx="480" cy="398" r="3.5" fill="#E5C07B"/>
+            <rect x="524" y="318" width="80" height="86" rx="3" fill="#2A2A2A"/><rect x="530" y="324" width="68" height="74" fill="#6E8597"/>
+            <rect x="160" y="456" width="480" height="12" fill="#C9C4BD"/><rect x="404" y="458" width="102" height="16" fill="#D8D3CC"/>
+          </g>
+          <!-- moderna -->
+          <g class="d-mod">
+            <rect class="wall" x="170" y="246" width="300" height="212" fill="#F7B47E"/>
+            <rect x="470" y="226" width="166" height="232" fill="url(#blockp)"/>
+            <path class="roof" d="M148 246 660 196v18L148 266z" fill="#6B3F2A"/>
+            <path class="fascia" d="M148 266 660 214v8L148 274z" fill="#4E2D1E"/>
+            <path d="M170 266 470 236v10L170 276z" fill="#000" opacity=".1"/>
+            <rect x="200" y="300" width="130" height="92" rx="3" fill="#2A2A2A"/><rect x="206" y="306" width="118" height="80" fill="#6E8597"/><path d="M265 306v80" stroke="#2A2A2A" stroke-width="4"/>
+            <rect x="372" y="324" width="70" height="134" rx="3" fill="#8B5A35"/><path d="M382 336h50v50h-50zM382 394h50v54h-50z" fill="none" stroke="#6E4325" stroke-width="3"/><circle cx="432" cy="394" r="3.5" fill="#E5C07B"/>
+            <rect x="500" y="290" width="104" height="110" rx="3" fill="#2A2A2A"/><rect x="506" y="296" width="92" height="98" fill="#7D93A4"/>
+            <rect x="160" y="456" width="486" height="12" fill="#C9C4BD"/><rect x="360" y="458" width="94" height="16" fill="#D8D3CC"/>
+          </g>
+          <g opacity=".9"><circle cx="110" cy="440" r="34" fill="#4E9B48"/><circle cx="84" cy="452" r="24" fill="#5FAE55"/><circle cx="700" cy="446" r="28" fill="#4E9B48"/><circle cx="724" cy="456" r="20" fill="#5FAE55"/></g>
+        </svg>
+        <span class="cname"><i data-cdot></i><span data-cname>Melocotón · Clásica</span></span>
+      </div>
+      <div class="paint-ctrl">
+        <div class="rv">
+          <span class="tag"><svg><use href="#i-home"/></svg>Pinte su casa</span>
+          <h2 class="d h2"><span class="ln"><span>Elija entre</span></span><span class="ln" style="--i:1"><span>todos nuestros <span class="s">diseños</span></span></span></h2>
+          <p class="lead">Modelos pensados para adaptarse a su estilo de vida y a las necesidades de su familia. Pruebe el color que le gusta.</p>
+        </div>
+        <h3>Diseño</h3>
+        <div class="seg" role="group" aria-label="Diseño"><button type="button" class="on" data-design="clasica">Clásica</button><button type="button" data-design="moderna">Moderna</button></div>
+        <h3>Color de paredes</h3>
+        <div class="swatches" data-walls role="group" aria-label="Color de paredes">
+          <button class="sw on" type="button" style="--c:#F7B47E" data-c="#F7B47E" data-n="Melocotón" data-f="calido" aria-label="Melocotón"></button>
+          <button class="sw" type="button" style="--c:#EE8F7C" data-c="#EE8F7C" data-n="Salmón" data-f="calido" aria-label="Salmón"></button>
+          <button class="sw" type="button" style="--c:#F6C944" data-c="#F6C944" data-n="Amarillo" data-f="calido" aria-label="Amarillo"></button>
+          <button class="sw" type="button" style="--c:#C7B2E3" data-c="#C7B2E3" data-n="Lila" data-f="lila" aria-label="Lila"></button>
+          <button class="sw" type="button" style="--c:#F3A9BB" data-c="#F3A9BB" data-n="Rosado" data-f="lila" aria-label="Rosado"></button>
+          <button class="sw" type="button" style="--c:#86C66B" data-c="#86C66B" data-n="Verde" data-f="verde" aria-label="Verde"></button>
+          <button class="sw" type="button" style="--c:#5AA8E6" data-c="#5AA8E6" data-n="Celeste" data-f="azul" aria-label="Celeste"></button>
+          <button class="sw" type="button" style="--c:#EFE9E1" data-c="#EFE9E1" data-n="Blanco hueso" data-f="gris" aria-label="Blanco hueso"></button>
+        </div>
+        <h3>Techo y precinta</h3>
+        <div class="swatches" data-roofs role="group" aria-label="Color de techo">
+          <button class="sw sm on" type="button" style="--c:#6B3F2A" data-c="#6B3F2A" data-c2="#4E2D1E" data-n="Café" aria-label="Café"></button>
+          <button class="sw sm" type="button" style="--c:#8F9399" data-c="#8F9399" data-c2="#6E7278" data-n="Gris" aria-label="Gris"></button>
+          <button class="sw sm" type="button" style="--c:#F2F2F2" data-c="#F2F2F2" data-c2="#D6D6D6" data-n="Blanco" aria-label="Blanco"></button>
+        </div>
+        <a class="btn" href="#solicitud" data-paint-go>Quiero mi casa así <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="gal-t">
+      <h3 class="rv"><span class="ln"><span>Así lucen casas de CBS</span></span></h3>
+      <div class="fchips" role="group" aria-label="Filtrar por color">
+        <button class="on" type="button" data-fam="all" style="--c:conic-gradient(#F7B47E,#C7B2E3,#86C66B,#5AA8E6,#F7B47E)">Todas</button>
+        <button type="button" data-fam="calido" style="--c:#F7B47E">Cálidos</button>
+        <button type="button" data-fam="lila" style="--c:#C7B2E3">Lila y rosado</button>
+        <button type="button" data-fam="verde" style="--c:#86C66B">Verdes</button>
+        <button type="button" data-fam="azul" style="--c:#5AA8E6">Celestes</button>
+        <button type="button" data-fam="gris" style="--c:#BFC2C6">Block y claros</button>
+      </div>
+    </div>
+    <div class="mosaic" data-mosaic>
+      <button class="tile tall" type="button" data-fam="gris" style="--c:#BFC2C6"><img src="img/s-blanca23.jpg" alt="Casa blanca de techo moderno" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="calido" style="--c:#EE8F7C"><img src="img/c-ramt.jpg" alt="Casa color salmón con corredor" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="lila" style="--c:#C7B2E3"><img src="img/c-lila.jpg" alt="Casa lila con baranda" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="calido" style="--c:#F7B47E"><img src="img/c-convierte.jpg" alt="Casa melocotón y gris" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="azul" style="--c:#5AA8E6"><img src="img/c-azul2.jpg" alt="Casa celeste con ventana de esquina" loading="lazy"><i class="dot"></i></button>
+      <button class="tile tall" type="button" data-fam="verde" style="--c:#86C66B"><img src="img/s-verde11.jpg" alt="Casa verde con puerta de madera" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="lila" style="--c:#F3A9BB"><img src="img/c-rosa.jpg" alt="Casa rosada" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="gris" style="--c:#BFC2C6"><img src="img/c-benef.jpg" alt="Casa de block visto" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="calido" style="--c:#F7B47E"><img src="img/c-estamicasa.jpg" alt="Casa melocotón con techo café" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="verde" style="--c:#86C66B"><img src="img/c-junio.jpg" alt="Casa verde y amarilla" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="lila" style="--c:#C7B2E3"><img src="img/c-requisitos.jpg" alt="Casa lila con techo café" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="gris" style="--c:#BFC2C6"><img src="img/s-block24.jpg" alt="Casa de block con puerta de madera" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="calido" style="--c:#EE8F7C"><img src="img/c-alquilar.jpg" alt="Casa salmón" loading="lazy"><i class="dot"></i></button>
+      <button class="tile" type="button" data-fam="azul" style="--c:#5AA8E6"><img src="img/c-azul.jpg" alt="Detalle de casa celeste" loading="lazy"><i class="dot"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TU CASA EN 5 PASOS
+     ========================================================= -->
+<section class="sec steps-sec" id="proceso">
+  <div class="wrap">
+    <div class="head c rv">
+      <span class="tag"><svg><use href="#i-key"/></svg>Proceso</span>
+      <h2 class="d h2"><span class="ln"><span>Su casa en <span class="s">5 pasos</span></span></span></h2>
+      <p class="lead">Le acompañamos durante todo el proceso para que avance con tranquilidad y confianza.</p>
+    </div>
+    <div class="path-wrap steps-h" data-path>
+      <svg class="path-svg" viewBox="0 0 1000 240" aria-hidden="true">
+        <path class="base" d="M100 70C200 70 200 170 300 170S400 70 500 70 600 170 700 170 800 70 900 70"/>
+        <path class="prog" data-prog d="M100 70C200 70 200 170 300 170S400 70 500 70 600 170 700 170 800 70 900 70"/>
+        <circle class="stop" cx="100" cy="70" r="26"/><text class="sn" x="100" y="70">1</text>
+        <circle class="stop" cx="300" cy="170" r="26"/><text class="sn" x="300" y="170">2</text>
+        <circle class="stop" cx="500" cy="70" r="26"/><text class="sn" x="500" y="70">3</text>
+        <circle class="stop" cx="700" cy="170" r="26"/><text class="sn" x="700" y="170">4</text>
+        <circle class="stop" cx="900" cy="70" r="26"/><text class="sn" x="900" y="70">5</text>
+      </svg>
+      <span class="path-key" data-pkey><svg><use href="#key-art"/></svg></span>
+    </div>
+    <div class="steps-v">
+      <div class="steps-mobile" data-vsteps>
+        <span class="vline"></span><span class="vfill" data-vfill></span><svg class="vkey" data-vkey aria-hidden="true"><use href="#key-art"/></svg>
+        <div class="step-cards" data-cards-m></div>
+      </div>
+    </div>
+    <div class="step-cards steps-h" data-cards>
+      <div class="scard" data-n="1"><span>Paso 1</span><b>Evaluación gratuita</b><p>Revisamos su caso y le decimos qué bono le conviene.</p></div>
+      <div class="scard" data-n="2"><span>Paso 2</span><b>Postulación al bono</b><p>Armamos su expediente y lo presentamos ante la entidad.</p></div>
+      <div class="scard" data-n="3"><span>Paso 3</span><b>Aprobación</b><p>Damos seguimiento al trámite hasta que su bono sea aprobado.</p></div>
+      <div class="scard" data-n="4"><span>Paso 4</span><b>Diseño y planificación</b><p>Elige su diseño y planificamos la construcción.</p></div>
+      <div class="scard" data-n="5"><span>Paso 5</span><b>Entrega de llaves</b><p>¡El gran día! Recibe su casa, lista para vivir.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     MITOS
+     ========================================================= -->
+<section class="sec" id="mitos">
+  <div class="wrap">
+    <div class="head rv">
+      <span class="tag"><svg><use href="#i-turn"/></svg>Toque cada tarjeta</span>
+      <h2 class="d h2"><span class="ln"><span>Mitos erróneos</span></span><span class="ln" style="--i:1"><span>sobre el <span class="s">bono</span></span></span></h2>
+    </div>
+    <div class="myth-grid">
+      <button class="flip pop" type="button"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>Solo califican núcleos familiares grandes</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Califica todo tipo de familias.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+      <button class="flip pop" type="button" style="--d:.08s"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>Solo si tengo lote propio puedo tramitar</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Hay diversas soluciones, como el Bono Crédito para lote y casa, o el Bono Patio.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+      <button class="flip pop" type="button" style="--d:.16s"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>Solo califican los costarricenses</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Todo costarricense o extranjero legal puede solicitarlo.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+      <button class="flip pop" type="button"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>Los empleados del sector público no califican</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Trabajar en el sector público no le impide tramitar su bono.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+      <button class="flip pop" type="button" style="--d:.08s"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>El trámite es muy complicado y tarda años</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Con nuestra asesoría es una gestión sencilla y con los gastos indicados por el BANHVI.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+      <button class="flip pop" type="button" style="--d:.16s"><span class="flip-in"><span class="face f"><small><svg><use href="#i-x"/></svg>Mito</small><p>Un papá soltero no puede tramitar el bono</p><span class="turn"><svg><use href="#i-turn"/></svg>Ver la verdad</span></span><span class="face b"><small><svg><use href="#i-ok"/></svg>Realidad</small><p>Ahora sí puede tramitar su bono de vivienda como padre soltero, sin necesidad de custodia legal.</p><span class="turn"><svg><use href="#i-turn"/></svg>Volver</span></span></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     EXPERIENCIAS
+     ========================================================= -->
+<section class="sec xp" id="experiencias">
+  <div class="wrap xp-grid">
+    <div>
+      <div class="rv">
+        <span class="tag" style="background:rgba(255,100,16,.18);color:#FFB085"><svg><use href="#i-heart"/></svg>Experiencias</span>
+        <h2 class="d h2"><span class="ln"><span>Experiencias que</span></span><span class="ln" style="--i:1"><span>generan <span class="s">confianza</span></span></span></h2>
+        <p class="lead">Familias que hoy disfrutan de una vivienda gracias a CBS. Sus historias ya suman miles de reproducciones en nuestras redes.</p>
+      </div>
+      <ul class="xp-list" data-xplist></ul>
+    </div>
+    <div>
+      <div class="phone pop" data-stories>
+        <div class="screen" data-screen>
+          <div class="bars" data-bars></div>
+          <div class="st-head"><img src="img/logo_dark_mark.png" alt=""><span>Constructora Bien Social<small data-st-sub>Historias</small></span></div>
+          <button class="tap l" type="button" data-prev aria-label="Historia anterior"></button>
+          <button class="tap r" type="button" data-next aria-label="Historia siguiente"></button>
+          <div class="pause-ic"><span><svg><use href="#i-pause"/></svg></span></div>
+        </div>
+      </div>
+      <p style="text-align:center"><a class="xp-fb" href="https://www.facebook.com/search/top?q=Constructora%20Bien%20Social%20CBS" target="_blank" rel="noopener">Ver todas las historias en Facebook <svg width="18" height="18"><use href="#i-arrow"/></svg></a></p>
+    </div>
+    <div class="share pop" data-share-xp>
+      <div class="share-l"><h3>Comparta su experiencia</h3>
+      <p class="sub">¿Ya recibió su casa con CBS? Cuéntenos cómo le fue. Con su permiso, la publicamos en esta sección.</p>
+      <div class="stars" role="radiogroup" aria-label="Calificación">
+        <button type="button" data-star="1" aria-label="1 estrella"><svg><use href="#i-star"/></svg></button><button type="button" data-star="2" aria-label="2 estrellas"><svg><use href="#i-star"/></svg></button><button type="button" data-star="3" aria-label="3 estrellas"><svg><use href="#i-star"/></svg></button><button type="button" data-star="4" aria-label="4 estrellas"><svg><use href="#i-star"/></svg></button><button type="button" data-star="5" aria-label="5 estrellas"><svg><use href="#i-star"/></svg></button>
+      </div></div>
+      <label>Su nombre<input type="text" data-xn placeholder="Ej: María Rojas" autocomplete="name"></label>
+      <label>Comunidad<input type="text" data-xc placeholder="Ej: Siquirres"></label>
+      <label>Su experiencia<textarea rows="3" data-xt placeholder="¿Cómo fue el proceso? ¿Cómo se siente en su casa nueva?"></textarea></label>
+      <label class="chk"><input type="checkbox" data-xok>Autorizo a CBS a publicar mi comentario con mi nombre y comunidad.</label>
+      <a class="btn btn-wa" href="https://wa.me/" target="_blank" rel="noopener" data-xsend><svg><use href="#i-wa"/></svg> Enviar por WhatsApp</a>
+      <p class="msg" data-xmsg hidden></p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PRE-SOLICITUD
+     ========================================================= -->
+<section class="sec sol-sec" id="solicitud">
+  <div class="wrap sol-grid">
+    <div class="rv">
+      <span class="tag"><svg><use href="#i-form"/></svg>Pre-solicitud</span>
+      <h2 class="d h2"><span class="ln"><span>Empiece a</span></span><span class="ln" style="--i:1"><span>tramitar <span class="s">hoy</span></span></span></h2>
+      <p class="lead">Una pregunta a la vez. Al final se crea un PDF con su información y lo envía a CBS por WhatsApp.</p>
+      <div class="how3">
+        <div><i>1</i><span><b>Responda 6 preguntas</b><small>Tenga a mano su cédula.</small></span></div>
+        <div><i>2</i><span><b>Se crea su PDF de color</b><small>Con códigos QR para que el asesor le contacte al instante.</small></span></div>
+        <div><i>3</i><span><b>Envíelo por WhatsApp</b><small>Al 8718-9634 de CBS.</small></span></div>
+      </div>
+      <div class="legend" aria-label="Colores del PDF">
+        <span style="--c:var(--c-lote)"><i></i>Lote propio</span><span style="--c:var(--c-patio)"><i></i>Terreno familiar</span><span style="--c:var(--c-sin)"><i></i>Sin lote</span><span style="--c:var(--c-casa)"><i></i>Ya tiene casa</span>
+      </div>
+    </div>
+
+    <div class="conv pop" data-conv>
+      <div class="conv-top"><span data-cbar></span></div>
+      <form class="conv-body" id="sol" novalidate>
+        <!-- 1 -->
+        <div class="q on" data-qn="1">
+          <span class="qn">1 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3>¿Cuál es su situación?</h3>
+          <p class="hint">Elija la que más se parece a la suya.</p>
+          <div class="cards4">
+            <label class="ch"><input type="radio" name="sit" value="lote" data-req><span class="cb"><span class="sq" style="--c:var(--c-lote)"><svg><use href="#i-home"/></svg></span><span><b>Tengo lote propio</b><small>Quiero construir mi casa</small></span></span></label>
+            <label class="ch"><input type="radio" name="sit" value="patio"><span class="cb"><span class="sq" style="--c:var(--c-patio)"><svg><use href="#i-fam"/></svg></span><span><b>Comparto terreno familiar</b><small>Construir en el lote de mi familia</small></span></span></label>
+            <label class="ch"><input type="radio" name="sit" value="sinlote"><span class="cb"><span class="sq" style="--c:var(--c-sin)"><svg><use href="#i-search"/></svg></span><span><b>No tengo lote</b><small>Necesito lote y casa</small></span></span></label>
+            <label class="ch"><input type="radio" name="sit" value="casa"><span class="cb"><span class="sq" style="--c:var(--c-casa)"><svg><use href="#i-tools"/></svg></span><span><b>Ya tengo casa</b><small>Quiero repararla, terminarla o ampliarla</small></span></span></label>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="q" data-qn="2">
+          <span class="qn">2 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3 data-q2t>Sobre el terreno</h3>
+          <p class="hint" data-q2h>Nos ayuda a preparar la evaluación gratuita.</p>
+          <label class="fl"><span data-ubl>¿Dónde está el terreno?</span><input type="text" name="ubicacion" placeholder="Ej: Cariari, Pococí" data-req></label>
+          <div data-only="lote,patio"><span class="qq">¿Tiene plano y escritura?</span><div class="pl">
+            <label><input type="radio" name="docs" value="Plano y escritura"><span>Sí, los dos</span></label>
+            <label><input type="radio" name="docs" value="Solo plano"><span>Solo plano</span></label>
+            <label><input type="radio" name="docs" value="No sé"><span>No sé</span></label></div></div>
+          <div data-only="casa"><span class="qq">¿Qué necesita hacerle?</span><div class="pl">
+            <label><input type="checkbox" name="obra" value="Reparar"><span>Reparar</span></label>
+            <label><input type="checkbox" name="obra" value="Terminar"><span>Terminar</span></label>
+            <label><input type="checkbox" name="obra" value="Ampliar"><span>Ampliar</span></label>
+            <label><input type="checkbox" name="obra" value="Mejorar"><span>Mejorar</span></label></div></div>
+          <label class="fl">Diseño que le gusta <span class="nt">Opcional. Lo puede elegir en "Pinte su casa".</span><select name="diseno"><option value="">Todavía no sé</option><option>Clásica</option><option>Moderna con block</option></select></label>
+          <input type="hidden" name="color">
+        </div>
+        <!-- 3 -->
+        <div class="q" data-qn="3">
+          <span class="qn">3 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3>¿Con quién tenemos el gusto?</h3>
+          <p class="hint">Datos de la persona que solicita el bono.</p>
+          <label class="fl">Nombre completo<input type="text" name="nombre" autocomplete="name" placeholder="Nombre y dos apellidos" data-req></label>
+          <div class="row2">
+            <label class="fl">Cédula<input type="text" name="cedula" inputmode="numeric" placeholder="Ej: 7-0123-0456" data-req data-ced></label>
+            <label class="fl">Teléfono con WhatsApp<input type="tel" name="telefono" inputmode="tel" autocomplete="tel" placeholder="Ej: 8888-1234" data-req data-tel></label>
+          </div>
+          <label class="fl">Cantón donde vive<select name="canton" data-req><option value="">Elija su cantón</option><option>San Carlos</option><option>Sarapiquí</option><option>Río Cuarto</option><option>Pococí</option><option>Guácimo</option><option>Siquirres</option><option>Matina</option><option>Limón</option><option>Turrialba</option><option>Otro</option></select></label>
+        </div>
+        <!-- 4 -->
+        <div class="q" data-qn="4">
+          <span class="qn">4 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3>¿Quiénes vivirán en la casa?</h3>
+          <p class="hint">Contándose usted. Califica todo tipo de familias.</p>
+          <div class="cnt"><button type="button" data-dn aria-label="Menos">−</button><input type="number" name="personas" value="2" min="1" max="15" aria-label="Personas"><button type="button" data-up aria-label="Más">+</button></div>
+          <div class="checks">
+            <label><input type="checkbox" name="adulto" value="Sí">Vive con nosotros una persona adulta mayor</label>
+            <label><input type="checkbox" name="disc" value="Sí">Hay una persona con discapacidad</label>
+            <label><input type="checkbox" name="jefe" value="Sí">Soy padre o madre jefe de hogar</label>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="q" data-qn="5">
+          <span class="qn">5 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3>¿Cuál es el ingreso mensual del hogar?</h3>
+          <p class="hint">Sumando lo que aportan todos, antes de rebajos.</p>
+          <label class="fl"><span class="sr">Ingreso mensual</span><span class="money" data-moneybox><span>¢</span><input type="text" name="ingreso" inputmode="numeric" placeholder="350.000" data-req data-money></span></label>
+          <p class="warn" data-inc-warn hidden>Su ingreso es mayor a ¢1.940.000. Igual puede enviar su solicitud: un asesor le explica sus opciones.</p>
+          <span class="qq">¿De dónde vienen los ingresos?</span><div class="pl">
+            <label><input type="radio" name="fuente" value="Asalariado" data-req><span>Salario</span></label>
+            <label><input type="radio" name="fuente" value="Independiente"><span>Por cuenta propia</span></label>
+            <label><input type="radio" name="fuente" value="Pensión"><span>Pensión</span></label></div>
+        </div>
+        <!-- 6 -->
+        <div class="q" data-qn="6">
+          <span class="qn">6 de 6 <svg><use href="#i-arrow"/></svg></span>
+          <h3>Últimos detalles</h3>
+          <span class="qq">¿Ha recibido un bono de vivienda antes?</span><div class="pl">
+            <label><input type="radio" name="previo" value="No" data-req><span>No</span></label>
+            <label><input type="radio" name="previo" value="Sí"><span>Sí</span></label>
+            <label><input type="radio" name="previo" value="No estoy seguro"><span>No estoy seguro</span></label></div>
+          <div class="rv-box" data-review></div>
+          <label class="agree"><input type="checkbox" name="consent" data-req><span>Declaro que la información es verdadera y autorizo a <b>Constructora Bien Social CBS</b> a usarla de forma confidencial, solo para evaluar mi trámite de bono de vivienda.</span></label>
+          <details class="priv"><summary>Aviso de privacidad</summary><p>Sus datos se usan únicamente para revisar su caso y contactarle sobre su trámite. No se venden ni se comparten con terceros ajenos al trámite. Puede pedir que se corrijan o eliminen escribiendo al WhatsApp 8718-9634. El PDF registra la fecha y hora en que aceptó.</p></details>
+        </div>
+        <!-- listo -->
+        <div class="done" data-done hidden>
+          <svg class="keybig" viewBox="0 0 200 90" aria-hidden="true"><use href="#key-art"/></svg>
+          <h3>¡Su PDF está listo!</h3>
+          <p>Envíelo a CBS por WhatsApp para que un asesor lo revise.</p>
+          <div class="pdfcard" data-pdfcard></div>
+          <button type="button" class="btn btn-wa" data-send><svg><use href="#i-wa"/></svg> Enviar por WhatsApp</button>
+          <button type="button" class="btn btn-line" data-save>Guardar PDF</button>
+          <a class="btn btn-ink" data-wa-open href="https://wa.me/" target="_blank" rel="noopener" hidden><svg><use href="#i-wa"/></svg> Abrir WhatsApp para adjuntarlo</a>
+          <p class="help">Al tocar <b>Enviar por WhatsApp</b> se abre el menú para compartir: elija WhatsApp y busque a <b>CBS</b>.</p>
+          <button type="button" class="lnk" data-again>Llenar otra solicitud</button>
+        </div>
+        <p class="conv-err" data-err role="alert" hidden></p>
+        <div class="conv-nav" data-cnav>
+          <button type="button" class="bk" data-prevq aria-label="Pregunta anterior" hidden>↑</button>
+          <button type="button" class="btn btn-ink" data-nextq>Continuar <svg><use href="#i-arrow"/></svg></button>
+        </div>
+        <p class="enter-hint" data-enter>Presione <b>Enter ↵</b> para continuar</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CÓDIGOS QR
+     ========================================================= -->
+<section class="sec qr-sec" id="qr">
+  <div class="wrap qr-grid">
+    <div>
+      <div class="rv">
+        <span class="tag" style="background:rgba(255,255,255,.2);color:#fff"><svg><use href="#i-qr"/></svg>Códigos QR</span>
+        <h2 class="d h2"><span class="ln"><span>CBS en</span></span><span class="ln" style="--i:1"><span>todas <span class="s">partes</span></span></span></h2>
+        <p class="lead">Códigos listos para volantes, ferias, la oficina y los carros. Quien lo escanea llega directo a donde tiene que llegar.</p>
+      </div>
+      <div class="qtabs" role="tablist" aria-label="Tipo de código">
+        <button type="button" class="on" data-qr="wa"><span class="ic"><svg><use href="#i-wa"/></svg></span><span><b>WhatsApp de CBS</b><small>Abre el chat con un mensaje listo</small></span></button>
+        <button type="button" data-qr="form"><span class="ic"><svg><use href="#i-form"/></svg></span><span><b>Pre-solicitud</b><small>Lleva directo al formulario</small></span></button>
+        <button type="button" data-qr="map"><span class="ic"><svg><use href="#i-pin"/></svg></span><span><b>Cómo llegar</b><small>Abre el mapa hacia la oficina</small></span></button>
+        <button type="button" data-qr="ig"><span class="ic"><svg><use href="#i-ig"/></svg></span><span><b>Instagram</b><small>@constructoracbs</small></span></button>
+      </div>
+    </div>
+    <div class="qcard pop" data-qcard>
+      <div class="qtop"><img src="img/logo_dark_mark.png" alt="CBS"><span>¡Escanéeme!</span></div>
+      <div class="qbox" data-qbox></div>
+      <h4 data-qtitle>Escríbanos por WhatsApp</h4>
+      <p data-qurl></p>
+      <div class="qacts"><button type="button" class="btn btn-sm" data-qsave>Guardar imagen</button><button type="button" class="btn btn-sm btn-line" data-qcopy>Copiar enlace</button></div>
+      <p class="qnote" data-qnote></p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTACTO
+     ========================================================= -->
+<section class="sec" id="contacto">
+  <div class="wrap">
+    <div class="head rv">
+      <span class="tag"><svg><use href="#i-phone"/></svg>Contacto</span>
+      <h2 class="d h2"><span class="ln"><span>Contáctenos</span></span><span class="ln" style="--i:1"><span>hoy <span class="s">mismo</span></span></span></h2>
+    </div>
+    <div class="ct-grid">
+      <a class="ct big pop" data-wa="Hola CBS, quiero información sobre el bono de vivienda." href="https://wa.me/?text=Hola%20CBS%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20bono%20de%20vivienda." target="_blank" rel="noopener"><span class="ci"><svg><use href="#i-wa"/></svg></span><small>WhatsApp</small><strong>8718-9634</strong><p>Escríbanos: le asesoramos en todo el proceso.</p><span class="go">Abrir chat →</span></a>
+      <a class="ct pop" style="--d:.06s" href="tel:+50627105020"><span class="ci"><svg><use href="#i-phone"/></svg></span><small>Teléfono</small><strong>2710-5020</strong><p>Llámenos a la oficina.</p><span class="go">Llamar →</span></a>
+      <a class="ct pop" style="--d:.12s" href="https://www.google.com/maps/search/?api=1&amp;query=125%20norte%20del%20Almac%C3%A9n%203R%2C%20Gu%C3%A1piles" target="_blank" rel="noopener"><span class="ci"><svg><use href="#i-pin"/></svg></span><small>Oficina</small><strong>Guápiles</strong><p>125 norte del Almacén 3R.</p><span class="go">Cómo llegar →</span></a>
+      <div class="ct pop" style="--d:.18s"><span class="ci"><svg><use href="#i-ig"/></svg></span><small>Redes</small><strong>Síganos</strong><div class="soc"><a href="https://www.instagram.com/constructoracbs/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@cbs_bauer" target="_blank" rel="noopener">TikTok</a><a href="https://www.facebook.com/search/top?q=Constructora%20Bien%20Social%20CBS" target="_blank" rel="noopener">Facebook</a></div></div>
+      <a class="ct pop" style="--d:.24s" href="mailto:info@bauercr.com"><span class="ci"><svg><use href="#i-mail"/></svg></span><small>Correo</small><strong style="font-size:26px;text-transform:none;font-family:var(--f-b);font-weight:700">info@bauercr.com</strong><p>Para documentos y consultas formales.</p></a>
+    </div>
+    <div class="jobs pop">
+      <span class="hat"><svg><use href="#i-hat"/></svg></span>
+      <div><h3>Buscamos contratistas</h3><p>Para proyectos de vivienda de interés social: trabajo continuo, proyectos estables y pagos puntuales según avance.</p></div>
+      <a class="btn btn-ink" href="https://wa.me/50687773264" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg> 8777-3264</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="huge" aria-hidden="true">CBS</div>
+  <div class="wrap" style="position:relative">
+    <div class="foot-top">
+      <div><img class="lg" src="img/logo_light.png" alt="CBS Constructora Bien Social" width="127" height="56"><p class="slog">¡Casa para todos!</p></div>
+      <div><h4>Sitio</h4><nav><a href="#buscador">¿Qué bono es para mí?</a><a href="#bonos">Bonos</a><a href="#pinte">Pinte su casa</a><a href="#experiencias">Experiencias</a><a href="#solicitud">Pre-solicitud</a></nav></div>
+      <div><h4>Contacto</h4><div class="fc"><a href="#" data-wa="Hola CBS, quiero información.">WhatsApp 8718-9634</a><a href="tel:+50627105020">Teléfono 2710-5020</a><span>125 norte del Almacén 3R, Guápiles</span><a href="mailto:info@bauercr.com">info@bauercr.com</a></div></div>
+    </div>
+    <div class="foot-b">
+      <span>© <span data-year>2026</span> Constructora Bien Social CBS.</span>
+      <a class="rf" href="https://andygu444.github.io/rfcreativestudio/" target="_blank" rel="noopener"><svg viewBox="0 0 22 14" aria-hidden="true"><path d="M2 13 5 1h5a3.3 3.3 0 0 1 0 6.6H6.4L10 13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M13 1h8l-1 2.4h-8zM12 5.6h7l-1 2.4h-7z" fill="#FF7A45"/></svg>Hecho por RF Creative Studio</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-f" data-wa="Hola CBS, quiero información sobre el bono de vivienda." href="https://wa.me/?text=Hola%20CBS" target="_blank" rel="noopener" aria-label="Escribir a CBS por WhatsApp"><svg><use href="#i-wa"/></svg><span>¿Hablamos?</span></a>
+<div class="lb" data-lb role="dialog" aria-modal="true" aria-label="Foto ampliada"><button class="lb-x" type="button" data-lbx aria-label="Cerrar">×</button><img src="" alt="" data-lbimg></div>
+
+<script src="qr.js"></script>
+<script type="text/x-lazy" id="lz-pdf" data-src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
